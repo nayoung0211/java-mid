@@ -16,12 +16,11 @@ public class ObjectPolyExample2 {
         objects[1] = car;
         objects[2] = object;
 
-        size(objects);
+        size(objects);//method
 
     }
 
     private static void size(Object[] objects) {
         System.out.println(objects.length);
     }
-
 }
