@@ -10,5 +10,8 @@ public class MethodChaningMain2 {
 
         int result = adder3.getValue();
         System.out.println(result);
+        System.out.println(adder1.getValue()); //모두 같은 참조값 add가 모두 자신의 참조값을 반환했기 때문
+        System.out.println(adder2.getValue());
+        System.out.println(adder3.getValue());
     }
 }
