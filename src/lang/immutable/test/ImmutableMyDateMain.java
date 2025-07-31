@@ -12,6 +12,7 @@ public class ImmutableMyDateMain {
 
         ImmutableMyDate newDate = date1.setYear(2025);
         System.out.println(newDate);
+        System.out.println(date1);
         System.out.println(date2);
     }
 }
