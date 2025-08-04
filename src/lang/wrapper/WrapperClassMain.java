@@ -23,6 +23,4 @@ public class WrapperClassMain {
 
         System.out.println(newInteger==i);
         System.out.println(i.equals(newInteger));
-    }
-
-}
+    }}

@@ -32,5 +32,4 @@ public class LottoGenerator {
         }
         return true;
     }
-
 }
