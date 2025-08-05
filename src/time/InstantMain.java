@@ -6,7 +6,7 @@ import java.time.ZonedDateTime;
 public class InstantMain {
 
     public static void main(String[] args) {
-        //생성
+        //생성,기계 중심 UTC기준
         Instant now = Instant.now();//UTC
         System.out.println(now);
 
@@ -18,8 +18,11 @@ public class InstantMain {
         System.out.println(epochStart);
 
         //계산
-        Instant epochEnd = Instant.ofEpochSecond(Long.MAX_VALUE);
-        System.out.println(epochEnd);
-    }
+        Instant later = epochStart.plusSeconds(3600);
+        System.out.println(later);
 
+        //조회
+        long epochSecond = later.getEpochSecond();
+        System.out.println(epochSecond);
+    }
 }
