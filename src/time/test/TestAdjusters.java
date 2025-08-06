@@ -12,12 +12,10 @@ public class TestAdjusters {
 
         LocalDate localDate = LocalDate.of(year, month, 1);
         DayOfWeek firstDayOfWeek = localDate.getDayOfWeek();
-        DayOfWeek lastDatOfWeek = localDate.with(TemporalAdjusters.lastDayOfMonth()).getDayOfWeek();
+        DayOfWeek lastDayOfWeek = localDate.with(TemporalAdjusters.lastDayOfMonth()).getDayOfWeek();
 
         System.out.println(firstDayOfWeek);
-        System.out.println(lastDatOfWeek);
-
-
+        System.out.println(lastDayOfWeek);
     }
 
 }

@@ -14,6 +14,5 @@ public class TestBetween2 {
         long between = ChronoUnit.DAYS.between(startDate, endDate);
         System.out.println("남은 기간 : "+period.getYears()+"년 ,"+period.getMonths()+"개월, "+period.getDays()+"일");
         System.out.println(between);
-
     }
 }

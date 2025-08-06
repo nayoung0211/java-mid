@@ -28,6 +28,7 @@ public class TestCalenderPrinter {
         for(int i=1;i<=offsetWeekDays;i++) {
             System.out.print("   ");
         }
+
         LocalDate dayIterator = firstDayOfMonth;
         while(dayIterator.isBefore(firstDayOfNextMonth)) {
             System.out.printf("%2d ",dayIterator.getDayOfMonth());
